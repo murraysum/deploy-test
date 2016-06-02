@@ -41,6 +41,8 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+
+  set :http_prefix, '/deploy-test'
 end
 
 activate :deploy do |deploy|
